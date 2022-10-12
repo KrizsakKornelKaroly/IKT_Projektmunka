@@ -1,0 +1,84 @@
+html{
+   margin: 0;
+}
+
+ul{
+   margin: 0;
+   list-style-type: none;
+   font-family: Arial, Helvetica, sans-serif;
+   width: 450px;
+   background-color: #444444;
+   font-size:medium;
+   float: left;
+   position: absolute;
+   top: 454px;
+   left: 0px;
+   padding-top: 20px;
+   height: 600px;
+}
+a{
+   text-decoration: none;
+   color: lightgray;
+}
+
+li{
+   text-align:justify;
+   height: 30px;
+}
+
+body {
+   background-repeat: no-repeat;
+   background-color: white;
+}
+
+.hatter_lista{
+   background-color: #444444;
+   float: left;
+   width: 40%;
+}
+
+.hatter {
+   position:absolute;
+   left: 0px;
+   top: 0px;
+}
+
+li:before {
+   content: " ";
+   border-bottom: 1px solid #494949;
+   border-top: 1px solid #3d3d3d;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   display: block;
+   max-width: 445px;
+   margin-left: -20px;
+}
+#golyo_szam, #tortenetek {
+   position: relative;
+   float:right;
+   width: 60%;
+   font-size: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.golyo_z {
+   width: 130px;
+}
+
+.golyo_a {
+   width: 130px;
+   position: relative;
+   top: 40px;
+   left: 0px;
+}
+
+h3 {
+   font-size: 200%;
+}
+
+.g_gyak, .g_nyer {
+   width: 70%;
+   position: relative;
+   top: 40px;
+   left: 500px;
+}
